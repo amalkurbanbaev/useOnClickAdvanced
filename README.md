@@ -1,4 +1,4 @@
-![This is an image](https://myoctocat.com/assets/images/octocats/octocat-24.png =250x250)
+<img https://myoctocat.com/assets/images/octocats/octocat-24.png" width="200" height="200" />
 Hook for React, helps you keep track of clicks on the INSIDE and OUTSIDE areas. This is an advanced version - it allows you to pass an array of refs that can be interacted with.
 
 ## Install
