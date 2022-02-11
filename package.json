@@ -1,15 +1,24 @@
 {
   "name": "useonclickadvanced",
   "version": "1.0.1",
-  "description": "",
+  "description": "Hook for React, helps you keep track of clicks on the INSIDE and OUTSIDE areas.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\"",
     "np": "np"
   },
-  "author": "",
+  "author": "Amal Kurbanbaev",
   "license": "ISC",
   "dependencies": {
     "np": "^7.6.0"
-  }
+  },
+  "keywords": [
+     "react",
+    "react-hooks",
+    "onclickoutside",
+    "ref",
+    "forwardRef",
+    "refclick"
+  ],
+  "homepage": "https://github.com/amalkurbanbaev/useOnClickAdvanced"
 }
