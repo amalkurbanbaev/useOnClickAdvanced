@@ -10,13 +10,15 @@ npm install useonclickadvanced
 ## Usage
 
 ```js
+import useOnClickAdvanced from "useonclickadvanced";
+
 const Header = ({ toggleMenu }) => {
   const nodeDiv = useRef(null);
   const nodeButt = useRef(null);
 
   // just pass refs array, these elements will be "frozen" and will not be clicked
   // anything outside will be clicked
-  useOnClickOutside([nodeDiv, nodeButt], () => console.log("clicked"));
+  useOnClickAdvanced([nodeDiv, nodeButt], () => console.log("clicked"));
   return (
     <Container>
       <Wrapper>
@@ -37,15 +39,17 @@ const Header = ({ toggleMenu }) => {
 Problem: to make the menu close by clicking on the external area and by clicking on the button. But since the button was under the outer area, the button script conflicted with the hook. Therefore, we add its link to the array of links that do not need to perform actions, so that the button script closes the menu.
 
 ```js
+import useOnClickAdvanced from "useonclickadvanced";
+
 const Header = ({ setIsLight, isLight, keycloak }) => {
   const sideBar = useRef(null);
-  const buttonCLose = useRef(null);
+  const buttonClose = useRef(null);
 
   const { isMenuOpen, toggleMenuMode, toggleMenu, toggleMenuClose } =
     useContext(MenuContext);
 
   // you can pass 1 or more refs
-  useOnClickOutside([sideBar, buttonCLose], () => toggleMenu(false));
+  useOnClickAdvanced([sideBar, buttonCLose], () => toggleMenu(false));
 
   return (
     <Container>

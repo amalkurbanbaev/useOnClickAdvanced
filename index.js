@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const useOnClickOutside = (refs, handler) => {
+const useOnClickAdvanced = (refs, handler) => {
   // create array if node was deleted or not assigned
   const prettyArray = refs.filter((ref) => {
     if (ref.current !== null && ref.current !== undefined) {
@@ -32,4 +32,4 @@ const useOnClickOutside = (refs, handler) => {
   }, [refs, handler, prettyArray]);
 };
 
-export default useOnClickOutside;
+export default useOnClickAdvanced;
