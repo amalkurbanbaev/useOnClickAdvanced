@@ -1,6 +1,6 @@
 {
   "name": "useonclickadvanced",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hook for React, helps you keep track of clicks on the INSIDE and OUTSIDE areas.",
   "main": "index.js",
   "scripts": {
