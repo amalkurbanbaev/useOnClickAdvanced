@@ -1,6 +1,14 @@
 ![This is an image](https://myoctocat.com/assets/images/octocats/octocat-24.png)
 Hook for React, helps you keep track of clicks on the INSIDE and OUTSIDE areas. This is an advanced version - it allows you to pass an array of refs that can be interacted with.
 
+## Announce
+
+The next update will be:
+
+- [] switching to TS
+- [] the function name will be changed to useOnClickAdvanced
+- [] the example will be changed to a more understandable one
+
 ## Install
 
 ```
